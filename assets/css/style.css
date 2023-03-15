@@ -87,3 +87,8 @@ footer .fa-brands{
     aspect-ratio: 1;
     cursor: pointer;
 }
+
+.f-text{
+    background-color: var(--bg-dark);
+
+}
