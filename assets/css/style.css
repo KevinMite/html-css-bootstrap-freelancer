@@ -1,0 +1,49 @@
+:root{
+    --bg-dark: #2F3E50 ;
+    --bg-green: #49BB9E;
+}
+
+.navbar{
+    background-color: var(--bg-dark) !important;
+
+}
+
+#start-bootstrap{
+    background-color: var(--bg-green);
+}
+
+.fa-star{
+    color: white;
+}
+
+.start-divider::before{
+    margin-right: 1.25rem;
+
+}
+
+.start-divider::after{
+    margin-left: 1.25rem;
+
+}
+
+.start-divider::before,
+.start-divider::after{
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+#start-bootstrap ul li{
+    list-style-type: none;
+   
+}
+
+#start-bootstrap ul li:not(#start-bootstrap ul li:first-child)::before{
+    content: '-';
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
