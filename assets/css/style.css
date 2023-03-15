@@ -49,6 +49,24 @@
 }
 
 #portafoglio .start-divider::before,
-#portafoglio .start-divider::after{
+#portafoglio .start-divider::after,
+#contact-me .start-divider::before,
+#contact-me .start-divider::after{
     background-color: black;
+}
+
+#contact-me{
+    background-color: white;
+}
+
+input.form-control,
+textarea.form-control {
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.btn-green{
+    background-color: var(--bg-green);
+    color: white;
 }
