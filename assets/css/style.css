@@ -1,6 +1,7 @@
 :root{
     --bg-dark: #2F3E50 ;
     --bg-green: #49BB9E;
+    --bg-gray: #3E546D;
 }
 
 .navbar{
@@ -69,4 +70,20 @@ textarea.form-control {
 .btn-green{
     background-color: var(--bg-green);
     color: white;
+}
+
+footer{
+    background-color: var(--bg-gray);
+}
+
+footer .fa-brands{
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    aspect-ratio: 1;
+    cursor: pointer;
 }
